@@ -1,0 +1,45 @@
+.red {
+    background-color: #9A1212;
+    transform: scale(1.5);
+    color: white;
+    margin-top: 20px;
+}
+.red a {
+    color: white;
+}
+
+
+
+.f-text {
+    font-size: 20px;
+    color: #9A1212;
+    margin-right: 30px;
+}
+.content {
+    grid-column: 1/3;
+    justify-items: center;
+    width: 80vw;
+}
+.top-text {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.con-text {
+    font-size: 32px;
+    text-align: right;
+    align-self: center;
+}
+
+.comp-img {
+    position: relative;
+    margin-top: -5%;
+    width: 100%;
+}
